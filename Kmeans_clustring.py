@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 def k_means_clustering(data, k, epsilon=0.0001, max_iterations=1000):
     centroids = data[:k]
